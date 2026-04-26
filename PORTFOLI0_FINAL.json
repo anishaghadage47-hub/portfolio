@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="c:\Users\anish\OneDrive\Documents\anu.jpeg">
+    <title>Anisha - Portfolio</title>
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+
+    <!-- Styling CSS -->
+
+    <!-- Theme 1 -->
+    <link rel="stylesheet" id="themeStylesheet" href="./assets/css/style.css">
+
+    <!-- Theme 2 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-two.css"> -->
+
+    <!-- Theme 3 -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-three.css"> -->
+<style>
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    margin:0;
+    background: linear-gradient(to right, #e3f2fd, #fce4ec);
+    color:#333;
+}
+
+/* HEADER */
+header{
+    text-align:center;
+    padding:30px;
+    background:#ffffffcc;
+}
+
+header h1{
+    color:#2c3e50;
+}
+
+header p{
+    color:#555;
+}
+
+/* NAVBAR */
+nav{
+    text-align:center;
+    background:#2c3e50;
+    padding:12px;
+}
+
+nav a{
+    color:#ecf0f1;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#a5d8ff;
+}
+
+/* SECTIONS */
+section{
+    background:white;
+    color:#333;
+    margin:20px auto;
+    padding:25px;
+    border-radius:12px;
+    max-width:800px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* IMAGE */
+img{
+    width:250px;
+    border-radius:200%;
+    display:block;
+    margin:15px auto;
+    border:3px solid #2c3e50;
+}
+
+/* LIST */
+ul{
+    line-height:1.8;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:15px;
+    background:#2c3e50;
+    color:white;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+    <header>
+<h1>ANISHA GHADAGE</h1>
+</header>
+       <nav>
+                    <a href="#home">Home</a>
+               
+                    <a href="#about">About</a>
+              
+                    <a href="#hobbies"> Hobbies</a>
+
+                    <a href="#skills"> Skills</a>
+
+                    <a href="#projects">Projects</a>
+
+                    <a href="#achivments">Achivments</a>
+              
+                    <a href="#contact">Contact</a>
+
+
+        </nav>
+
+   <main>
+
+        <!-- Home Section -->
+        <section class="home-section" id="home">
+            <div>
+                <div>
+                    <h4 title="Hello, How are you?">Hi, There!</h4>
+                    <h2 class="hero-section__title">I'm <span>Anisha</span></h2>
+                    <p class="hero-section__desc">I am a Web Developer skilled in Frontend Technologies, such as HTML,
+                        CSS, and JavaScript, creating interactive web experiences. I'm passionate about blending design
+                        aesthetics with functionality.</p>
+                </div>
+        </section>
+
+        <!-- About Section  -->
+        <section class="about-section" id="about">
+
+            <div class="about-img">
+                <img src="c:\Users\anish\OneDrive\Documents\anu.jpeg" alt="Anisha-portfolio">
+            </div>
+
+            <div class="about-content">
+                <h2>About Me</h2>
+                <h4>I am UI Designer & <br> <span>Web Developer</span></h4>
+                <p>Hello there! I'm Anisha, a first-year student at MIT Academy Of Engineering,
+                    majoring in CSE Data Science.
+                    . My academic journey has allowed me to dive deep into Web-Development, and I'm
+                    incredibly passionate about leveraging technology to solve real-world problems. Being a student
+                    in today's dynamic digital era, I've had opportunities to work on exciting projects, some of
+                    which you can explore right here on my portfolio.
+                </p>
+            </div>
+
+        </section>
+        <!--HOBBIES Section-->
+        <section id="hobbies">
+<h2>Hobbies</h2>
+
+<ul>
+<li>Coding 💻</li>
+<li>Music 🎵</li>
+<li>Reading 📚</li>
+</ul>
+
+</section>
+
+<!--SKILLS Section-->
+ <section id="skills">
+<h2>Skills</h2>
+
+<ul>
+<li>HTML</li>
+<li>C Programming</li>
+<li>Problem Solving</li>
+<li>Communication</li>
+</ul>
+
+</section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <h2>My <span>Projects</span></h2>
+            <div class="project">
+                <h3> Talking Periodic Table</h3>
+                <p> Audible periodic table which tells the elements with their atomic number.</p>
+                    </div>
+                    <div class="project">
+                        <h3>Stress realif Website</h3>
+                        <p> Website helps to reduse the stress level by sugggesting the user multiple things.
+                        </p>
+                    </div>
+        </section>
+
+        <!-- Achivments Section-->
+        <section class="achivments-section" id="achivments">
+            <h2>My <span>Achivments</span></h2>
+            <ul>
+                <li>Drawing Competition 2nd rank</li>
+                <li>CISCO Certificate</li>
+                <ul>
+                   <li>Python Essentials 1</li> 
+                   <li>Python Essentials 2</li>
+                </ul>
+                <li>NASSCOM Certificate</li>
+                <li>IBM Certificate</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2>Contact <span>ME!</span></h2>
+            <form action="">
+                <div>
+                    <input type="text" name="name" placeholder="FullName" required>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <textarea name="message" placeholder="Type Message" rows="5"></textarea>
+                </div>
+                <div>
+                    <button class="btn btn-primary">SEND MESSAGE</button>
+                </div>
+
+               <p>Email: example@gmail.com</p>
+               <p>Phone: +91 XXXXX XXXXX</p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+<p>© 2026 Anisha</p>
+</footer>
+
+</body>
+
+</html>
